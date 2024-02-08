@@ -1462,6 +1462,7 @@ using a fortran linker.
   <MPI_LIB_NAME>mpi</MPI_LIB_NAME>
   <FFLAGS>
     <append DEBUG="FALSE"> -O2 </append>
+    <append MODEL="micom"> -r8 </append>
     <append MODEL="cice"> -init=zero,arrays </append>
   </FFLAGS>
   <MPICC> mpicc </MPICC>
